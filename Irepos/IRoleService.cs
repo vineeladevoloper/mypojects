@@ -1,8 +1,8 @@
 ﻿using taskmanagement2.DTOS;
 
-namespace taskmanagement2.services
+namespace taskmanagement2.Irepos
 {
-    internal interface IRoleService
+    interface IRoleService
     {
         Role GetRoleById(long roleId);
     }

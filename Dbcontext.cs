@@ -13,6 +13,8 @@ public class MyDbContext : DbContext
     public DbSet<Comment> Comments { get; set; }
     public DbSet<Like> Likes { get; set; }
     public DbSet<CommentNotificationEntity> CommentNotifications { get;  set; }
+    public DbSet<Follower> followers { get; set; }
+    public object FolloweEntity { get; internal set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
